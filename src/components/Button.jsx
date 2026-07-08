@@ -1,6 +1,6 @@
 const Button = () => {
     return(
-        <button className="button" type="submit">1</button>
+        <button className="button" type="submit">2</button>
     )
 }
 
