@@ -6,10 +6,10 @@ const AddTaskForm = () => {
         <form className="todo__form">
             <Field 
             className = "todo__field"
-            label = "New tast title"
+            label = "Новая задача"
             id = "new-task"
             />
-            <Button />
+            <Button type="submit">Добавить</Button>
         </form>
     )
 }

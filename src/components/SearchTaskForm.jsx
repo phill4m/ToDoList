@@ -5,7 +5,7 @@ const SearchTaskForm = () => {
        <form className="todo__form">
         <Field 
         className="todo__field"
-        label="Search task"
+        label="Поиск задач"
         id="search-task"
         type="search"
         /> 
