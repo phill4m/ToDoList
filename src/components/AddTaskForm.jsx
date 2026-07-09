@@ -1,9 +1,19 @@
 import Button from "./Button"
 import Field from "./Field"
 
-const AddTaskForm = () => {
+const AddTaskForm = (props) => {
+    const {
+    addTask
+    } = props
+
+    const onSumbit = (event) => {
+        event.preventDefault()
+        addTask()
+    }
+    
+
     return (
-        <form className="todo__form">
+        <form className="todo__form" onSubmit={onSumbit}>
             <Field 
             className = "todo__field"
             label = "Новая задача"
