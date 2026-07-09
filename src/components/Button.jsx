@@ -5,10 +5,10 @@ const Button = (props) => {
         children,
     } = props
 
-    return(
-        <button 
-        className={`button ${className}`}
-        type={type}>
+    return (
+        <button
+            className={`button ${className}`}
+            type={type}>
             {children}
         </button>
     )
